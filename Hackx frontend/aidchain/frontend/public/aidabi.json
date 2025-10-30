@@ -1,0 +1,21 @@
+[
+  {
+    "inputs": [
+      { "internalType": "string", "name": "purpose", "type": "string" }
+    ],
+    "name": "makeDonation",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "internalType": "address", "name": "donor", "type": "address" },
+      { "indexed": false, "internalType": "uint256", "name": "amount", "type": "uint256" },
+      { "indexed": false, "internalType": "string", "name": "purpose", "type": "string" }
+    ],
+    "name": "DonationMade",
+    "type": "event"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "hackx-frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/react-icons": "^2.2.7"
+  }
+}

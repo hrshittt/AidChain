@@ -1,0 +1,14 @@
+{
+  "name": "hackx-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "backend-main",
+    "frontend",
+    "blockchain-main",
+    "Hackx frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces"
+  }
+}
